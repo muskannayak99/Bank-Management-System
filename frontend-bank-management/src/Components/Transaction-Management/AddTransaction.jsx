@@ -89,6 +89,7 @@ function AddTransaction({ iscollapsed, setIsCollapsed }) {
             setIsCollapsed={setIsCollapsed}
             images={images}
           />
+          
           <div className="content">
             <div className="row mb-3">
               <div className="col-xxl-12">
