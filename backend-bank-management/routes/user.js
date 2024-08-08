@@ -57,13 +57,13 @@ router.post("/signup", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "meeramuskan08@gmail.com",
-        pass: "fryn rgtt trsn hlkr",
+        user: "EMAIL",
+        pass: "PASSWORD",
       },
     });
 
     const mailOptions = {
-      from: "meeramuskan08@gmail.com",
+      from: "EMAIL",
       to: email,
       subject: "Your OTP for Signup",
       text: `Your OTP is ${otp}. It is valid for 2 minutes.`,

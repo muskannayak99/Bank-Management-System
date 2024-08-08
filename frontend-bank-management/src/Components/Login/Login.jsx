@@ -158,7 +158,7 @@ function Login() {
                     </div>
                     <p className="d-flex mt-4 justify-content-center">
                       {t("DONT_HAVE_ACCOUNT")} &nbsp;
-                      <Link to="/">{t("SIGN_UP")}</Link>
+                      <Link to="/">{t("SIGNUP")}</Link>
                     </p>
                   </form>
                 </div>
